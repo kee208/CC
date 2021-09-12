@@ -53,9 +53,9 @@
                     <td style =" width:160px; height:100px; text-align: center; vertical-align: middle; padding-left:90px">
                     </td>
                     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:Button ID="Button1" runat="server" BackColor="#FF6600" BorderStyle="None" ForeColor="White" Height="28px" Text="Buy Now" Width="149px" />
+                        <asp:Button ID="Button1" runat="server" BackColor="#FF6600" BorderStyle="None" ForeColor="White" Height="28px" Text="Buy Now" Width="149px" OnClick="Button1_Click" />
 &nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:Button ID="Button2" runat="server" BackColor="Red" ForeColor="White" Height="27px" Text="Add To Cart" Width="172px" />
+                        <asp:Button ID="Button2" runat="server" BackColor="Red" ForeColor="White" Height="27px" Text="Add To Cart" Width="172px" OnClick="Button2_Click" />
                     </td>
                 </tr>
             </table>

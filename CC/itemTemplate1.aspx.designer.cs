@@ -51,13 +51,13 @@ namespace CC
         protected global::System.Web.UI.WebControls.Image Image1;
 
         /// <summary>
-        /// DropDownList1 control.
+        /// DDL1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+        protected global::System.Web.UI.WebControls.DropDownList DDL1;
 
         /// <summary>
         /// ImageButton2 control.

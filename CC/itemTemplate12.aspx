@@ -34,7 +34,7 @@
                 <tr>
                     <td style="vertical-align: top; text-align: justify ; width:500px; height:90px">shipping: Free Shipping<br />
                         <br />
-                        <br />
+                        Price: 150<br />
                         <br />
                         Quantity: <asp:DropDownList ID="DropDownList1" runat="server">
                             <asp:ListItem Selected="True">1</asp:ListItem>
@@ -57,9 +57,9 @@
                         <asp:ImageButton ID="ImageButton5" runat="server" Height="52px" Width="59px" ImageUrl="~/hnm5.jpg"/>
                     </td>
                     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:Button ID="Button1" runat="server" BackColor="#FF6600" BorderStyle="None" ForeColor="White" Height="28px" Text="Buy Now" Width="149px" />
+                        <asp:Button ID="Button1" runat="server" BackColor="#FF6600" BorderStyle="None" ForeColor="White" Height="28px" Text="Buy Now" Width="149px" OnClick="Button1_Click" />
 &nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:Button ID="Button2" runat="server" BackColor="Red" ForeColor="White" Height="27px" Text="Add To Cart" Width="172px" />
+                        <asp:Button ID="Button2" runat="server" BackColor="Red" ForeColor="White" Height="27px" Text="Add To Cart" Width="172px" OnClick="Button2_Click" />
                     </td>
                 </tr>
             </table>

@@ -65,7 +65,7 @@
                 </tr>
                 <tr>
                     <td style="text-align: center; vertical-align: top; width:200px; height:250px ; border:1px solid Black">
-                        <asp:ImageButton ID="ImageButton5" runat="server" Height="130px" ImageAlign="Middle" ImageUrl="~/hermes16.jpg" Width="130px" />
+                        <asp:ImageButton ID="ImageButton5" runat="server" Height="130px" ImageAlign="Middle" ImageUrl="~/hermes16.jpg" Width="130px" OnClick="ImageButton5_Click" />
                         <br />
                         <asp:HyperLink ID="HyperLink6" runat="server">H belt</asp:HyperLink>
                     </td>

@@ -34,9 +34,9 @@
                 <tr>
                     <td style="vertical-align: top; text-align: justify ; width:500px; height:90px">shipping: Free Shipping<br />
                         <br />
+                        Price:RM 200<br />
                         <br />
-                        <br />
-                        Quantity: <asp:DropDownList ID="DropDownList1" runat="server">
+                        Quantity: <asp:DropDownList ID="DDL1" runat="server">
                             <asp:ListItem Selected="True">1</asp:ListItem>
                             <asp:ListItem>2</asp:ListItem>
                             <asp:ListItem>3</asp:ListItem>
