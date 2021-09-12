@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="itemTemplate.aspx.cs" Inherits="CC.itemTemplate" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="itemTemplate2.aspx.cs" Inherits="CC.itemTemplate2" %>
 
 <!DOCTYPE html>
 
@@ -27,7 +27,7 @@
                 <tr>
                     <td rowspan="3">&nbsp;</td>
                     <td style="text-align: center; width:350px; height:350px" rowspan="2">
-                        <asp:Image ID="Image1" runat="server" Height="315px" Width="270px" />
+                        <asp:Image ID="Image1" runat="server" Height="315px" Width="270px" ImageUrl="~/coach4.jpg"/>
                     </td>
                     <td style="vertical-align: top; text-align: justify ; width:500px; height:10px">[title]</td>
                 </tr>
@@ -36,8 +36,7 @@
                         <br />
                         <br />
                         <br />
-                        Quantity:
-                        <asp:DropDownList ID="DropDownList1" runat="server">
+                        Quantity: <asp:DropDownList ID="DropDownList1" runat="server">
                             <asp:ListItem Selected="True">1</asp:ListItem>
                             <asp:ListItem>2</asp:ListItem>
                             <asp:ListItem>3</asp:ListItem>
@@ -52,15 +51,13 @@
                 </tr>
                 <tr>
                     <td style =" width:160px; height:100px; text-align: center; vertical-align: middle; padding-left:90px">
-                        <asp:ImageButton ID="ImageButton2" runat="server" Height="52px" Width="59px" />
-                        <asp:ImageButton ID="ImageButton3" runat="server" Height="52px" Width="59px" />
-                        <asp:ImageButton ID="ImageButton4" runat="server" Height="52px" Width="59px" />
-                        <asp:ImageButton ID="ImageButton5" runat="server" Height="52px" Width="59px" />
+                        <asp:ImageButton ID="ImageButton2" runat="server" Height="52px" Width="59px" ImageUrl="~/coach5.jpg"/>
+                        <asp:ImageButton ID="ImageButton3" runat="server" Height="52px" Width="59px" ImageUrl="~/coach6.jpg"/>
                     </td>
                     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:Button ID="Button1" runat="server" BackColor="#FF6600" BorderStyle="None" ForeColor="White" Height="28px" OnClick="Button1_Click" Text="Buy Now" Width="149px" />
+                        <asp:Button ID="Button1" runat="server" BackColor="#FF6600" BorderStyle="None" ForeColor="White" Height="28px" Text="Buy Now" Width="149px" />
 &nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:Button ID="Button2" runat="server" BackColor="Red" ForeColor="White" Height="27px" OnClick="Button2_Click" Text="Add To Cart" Width="172px" />
+                        <asp:Button ID="Button2" runat="server" BackColor="Red" ForeColor="White" Height="27px" Text="Add To Cart" Width="172px" />
                     </td>
                 </tr>
             </table>

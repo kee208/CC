@@ -122,19 +122,132 @@
     <Content Include="hnm7.jpg" />
     <Content Include="hnm8.jpg" />
     <Content Include="hnm9.jpg" />
-    <Content Include="itemTemplate.aspx" />
+    <Content Include="itemTemplate16.aspx" />
+    <Content Include="itemTemplate1.aspx" />
+    <Content Include="itemTemplate10.aspx" />
+    <Content Include="itemTemplate11.aspx" />
+    <Content Include="itemTemplate12.aspx" />
+    <Content Include="itemTemplate13.aspx" />
+    <Content Include="itemTemplate14.aspx" />
+    <Content Include="itemTemplate15.aspx" />
+    <Content Include="itemTemplate2.aspx" />
+    <Content Include="itemTemplate3.aspx" />
+    <Content Include="itemTemplate5.aspx" />
+    <Content Include="itemTemplate6.aspx" />
+    <Content Include="itemTemplate7.aspx" />
+    <Content Include="itemTemplate8.aspx" />
+    <Content Include="itemTemplate9.aspx" />
     <Content Include="login.aspx" />
     <Content Include="logo.png" />
     <Content Include="Web.config" />
     <Content Include="mainpagr.aspx" />
+    <Content Include="itemTemplate4.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="itemTemplate.aspx.cs">
-      <DependentUpon>itemTemplate.aspx</DependentUpon>
+    <Compile Include="itemTemplate16.aspx.cs">
+      <DependentUpon>itemTemplate16.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="itemTemplate.aspx.designer.cs">
-      <DependentUpon>itemTemplate.aspx</DependentUpon>
+    <Compile Include="itemTemplate16.aspx.designer.cs">
+      <DependentUpon>itemTemplate16.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="itemTemplate1.aspx.cs">
+      <DependentUpon>itemTemplate1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="itemTemplate1.aspx.designer.cs">
+      <DependentUpon>itemTemplate1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="itemTemplate10.aspx.cs">
+      <DependentUpon>itemTemplate10.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="itemTemplate10.aspx.designer.cs">
+      <DependentUpon>itemTemplate10.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="itemTemplate11.aspx.cs">
+      <DependentUpon>itemTemplate11.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="itemTemplate11.aspx.designer.cs">
+      <DependentUpon>itemTemplate11.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="itemTemplate12.aspx.cs">
+      <DependentUpon>itemTemplate12.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="itemTemplate12.aspx.designer.cs">
+      <DependentUpon>itemTemplate12.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="itemTemplate13.aspx.cs">
+      <DependentUpon>itemTemplate13.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="itemTemplate13.aspx.designer.cs">
+      <DependentUpon>itemTemplate13.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="itemTemplate14.aspx.cs">
+      <DependentUpon>itemTemplate14.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="itemTemplate14.aspx.designer.cs">
+      <DependentUpon>itemTemplate14.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="itemTemplate15.aspx.cs">
+      <DependentUpon>itemTemplate15.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="itemTemplate15.aspx.designer.cs">
+      <DependentUpon>itemTemplate15.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="itemTemplate2.aspx.cs">
+      <DependentUpon>itemTemplate2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="itemTemplate2.aspx.designer.cs">
+      <DependentUpon>itemTemplate2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="itemTemplate3.aspx.cs">
+      <DependentUpon>itemTemplate3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="itemTemplate3.aspx.designer.cs">
+      <DependentUpon>itemTemplate3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="itemTemplate5.aspx.cs">
+      <DependentUpon>itemTemplate5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="itemTemplate5.aspx.designer.cs">
+      <DependentUpon>itemTemplate5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="itemTemplate6.aspx.cs">
+      <DependentUpon>itemTemplate6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="itemTemplate6.aspx.designer.cs">
+      <DependentUpon>itemTemplate6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="itemTemplate7.aspx.cs">
+      <DependentUpon>itemTemplate7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="itemTemplate7.aspx.designer.cs">
+      <DependentUpon>itemTemplate7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="itemTemplate8.aspx.cs">
+      <DependentUpon>itemTemplate8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="itemTemplate8.aspx.designer.cs">
+      <DependentUpon>itemTemplate8.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="itemTemplate9.aspx.cs">
+      <DependentUpon>itemTemplate9.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="itemTemplate9.aspx.designer.cs">
+      <DependentUpon>itemTemplate9.aspx</DependentUpon>
     </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
@@ -150,6 +263,13 @@
     </Compile>
     <Compile Include="mainpagr.aspx.designer.cs">
       <DependentUpon>mainpagr.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="itemTemplate4.aspx.cs">
+      <DependentUpon>itemTemplate4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="itemTemplate4.aspx.designer.cs">
+      <DependentUpon>itemTemplate4.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
