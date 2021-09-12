@@ -36,7 +36,8 @@
                         <br />
                         <br />
                         <br />
-                        Quantity: <asp:DropDownList ID="DropDownList1" runat="server">
+                        Quantity:
+                        <asp:DropDownList ID="DropDownList1" runat="server">
                             <asp:ListItem Selected="True">1</asp:ListItem>
                             <asp:ListItem>2</asp:ListItem>
                             <asp:ListItem>3</asp:ListItem>
@@ -57,9 +58,9 @@
                         <asp:ImageButton ID="ImageButton5" runat="server" Height="52px" Width="59px" />
                     </td>
                     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:Button ID="Button1" runat="server" BackColor="#FF6600" BorderStyle="None" ForeColor="White" Height="28px" Text="Buy Now" Width="149px" />
+                        <asp:Button ID="Button1" runat="server" BackColor="#FF6600" BorderStyle="None" ForeColor="White" Height="28px" OnClick="Button1_Click" Text="Buy Now" Width="149px" />
 &nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:Button ID="Button2" runat="server" BackColor="Red" ForeColor="White" Height="27px" Text="Add To Cart" Width="172px" />
+                        <asp:Button ID="Button2" runat="server" BackColor="Red" ForeColor="White" Height="27px" OnClick="Button2_Click" Text="Add To Cart" Width="172px" />
                     </td>
                 </tr>
             </table>
